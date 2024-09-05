@@ -71,5 +71,19 @@ public class Main {
                 System.out.println("Niepoprawnie, spróbuj ponownie");
             }
         }
+        //zgadywanie do skutku
+        System.out.println("Zgadnij liczbę");
+        wpisanaLiczba = klawiatura.nextInt();
+        while(wpisanaLiczba != wylosowana){
+            if(wpisanaLiczba>wylosowana){
+                System.out.println("Wpisano za dużą liczbę!");
+            }else if(wpisanaLiczba<wylosowana){
+                System.out.println("Wpisano za małą liczbę");
+            }
+            System.out.println("Niepoprawnie, spróbuj ponownie");
+            System.out.println("Zgadnij liczbę");
+            wpisanaLiczba = klawiatura.nextInt();
+        }
+        System.out.println("Gratulacje");
     }
 }
