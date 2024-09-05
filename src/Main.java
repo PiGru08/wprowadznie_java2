@@ -20,5 +20,11 @@ public class Main {
         Scanner klawiatura = new Scanner(System.in);
         int wpisanaLiczba = klawiatura.nextInt();//wczytywanie z klawiatury liczby całkowitej
         System.out.println("Wpisano z klawiatury "+wpisanaLiczba);
+
+        if(wpisanaLiczba == wylosowana){
+            System.out.println("Liczba została odgadnięta.");
+        }else{
+            System.out.println("Nie zgadnięto, spróbuj jeszce raz.");
+        }
     }
 }
