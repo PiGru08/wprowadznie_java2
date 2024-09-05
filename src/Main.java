@@ -16,7 +16,9 @@ public class Main {
         typy złożone: pisane zawsze pisane wielką literą
         obiekty które mają własności i metody
          */
+        System.out.println("Zgadnij liczbę z zakresu 1-10");
         Scanner klawiatura = new Scanner(System.in);
-        int wpisanaLiczba
+        int wpisanaLiczba = klawiatura.nextInt();//wczytywanie z klawiatury liczby całkowitej
+        System.out.println("Wpisano z klawiatury "+wpisanaLiczba);
     }
 }
